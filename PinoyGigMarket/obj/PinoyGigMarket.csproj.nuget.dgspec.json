@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\PROJECT\\PinoyGigMarket\\PinoyGigMarket\\PinoyGigMarket\\PinoyGigMarket.csproj": {}
+    "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\PinoyGigMarket.csproj": {}
   },
   "projects": {
-    "F:\\PROJECT\\PinoyGigMarket\\PinoyGigMarket\\PinoyGigMarket\\PinoyGigMarket.csproj": {
+    "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\PinoyGigMarket.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\PROJECT\\PinoyGigMarket\\PinoyGigMarket\\PinoyGigMarket\\PinoyGigMarket.csproj",
+        "projectUniqueName": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\PinoyGigMarket.csproj",
         "projectName": "PinoyGigMarket",
-        "projectPath": "F:\\PROJECT\\PinoyGigMarket\\PinoyGigMarket\\PinoyGigMarket\\PinoyGigMarket.csproj",
-        "packagesPath": "C:\\Users\\xhimera001\\.nuget\\packages\\",
-        "outputPath": "F:\\PROJECT\\PinoyGigMarket\\PinoyGigMarket\\PinoyGigMarket\\obj\\",
+        "projectPath": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\PinoyGigMarket.csproj",
+        "packagesPath": "C:\\Users\\Aldin A\\.nuget\\packages\\",
+        "outputPath": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\xhimera001\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Aldin A\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -51,6 +47,10 @@
           "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.32, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[6.0.32, )"
             },

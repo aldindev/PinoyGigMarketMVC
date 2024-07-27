@@ -25,10 +25,16 @@ namespace PinoyGigMarket.Controllers
             ViewBag.CurrentUser = currentUser;
 
             var projects = await _context.Projects
-                .Where(p => p.ClientID == currentUser.Id)
+                .Where(p => p.ClientID == "ac5de9ea-c85a-4c89-8492-5524847315c0")
                 .ToListAsync();
 
             return View(projects);
+        }
+        public async Task<IActionResult> Register()
+        {
+            var currentUser = await _userManager.Users.FirstOrDefaultAsync();
+            ViewBag.CurrentUser = currentUser;
+            return View();
         }
     }
 }

@@ -2,6 +2,7 @@
 
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
+@model List<PinoyGigMarket.Models.Project>
 @{
     ViewData["Title"] = "My Projects";
     var currentUser = ViewBag.CurrentUser as AppUser;
@@ -38,62 +39,37 @@
                             </th>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td class="text-center">
-                                        1
-                                    </td>
-                                    <td>
-                                        Mobile App for Fitness Tracking
-                                    </td>
-                                    <td>
-                                        Create a mobile app for iOS and Android to track fitness activities
-                                    </td>
-                                    <td class="text-center">
-                                        Cancelled
-                                    </td>
-                                    <td class="text-right">
-                                        7500.00
-                                    </td>
-                                    <td class="text-right">
-                                        <button type="button" rel="tooltip" class="btn btn-info btn-icon btn-sm ">
-                                            <i class="fa fa-user"></i>
-                                        </button>
-                                        <button type="button" rel="tooltip" class="btn btn-success btn-icon btn-sm ">
-                                            <i class="fa fa-edit"></i>
-                                        </button>
-                                        <button type="button" rel="tooltip" class="btn btn-danger btn-icon btn-sm ">
-                                            <i class="fa fa-times"></i>
-                                        </button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="text-center">
-                                        2
-                                    </td>
-                                    <td>
-                                        E-commerce website
-                                    </td>
-                                    <td>
-                                        Develop a full-featured e-commerce website using ASP.NET Core
-                                    </td>
-                                    <td class="text-center">
-                                        Ongoing
-                                    </td>
-                                    <td class="text-right">
-                                        5000.00
-                                    </td>
-                                    <td class="text-right">
-                                        <button type="button" rel="tooltip" class="btn btn-info btn-icon btn-sm ">
-                                            <i class="fa fa-user"></i>
-                                        </button>
-                                        <button type="button" rel="tooltip" class="btn btn-success btn-icon btn-sm ">
-                                            <i class="fa fa-edit"></i>
-                                        </button>
-                                        <button type="button" rel="tooltip" class="btn btn-danger btn-icon btn-sm ">
-                                            <i class="fa fa-times"></i>
-                                        </button>
-                                    </td>
-                                </tr>                              
+                                @foreach (var project in Model)
+                                {
+                                    <tr>
+                                        <td class="text-center">
+                                            @project.ProjectId
+                                        </td>
+                                        <td>
+                                            @project.Title
+                                        </td>
+                                        <td>
+                                            @project.Desc
+                                        </td>
+                                        <td class="text-center">
+                                            @project.Status
+                                        </td>
+                                        <td class="text-right">
+                                            @project.Budget.ToString()
+                                        </td>
+                                        <td class="text-right">
+                                            <button type="button" rel="tooltip" class="btn btn-info btn-icon btn-sm ">
+                                                <i class="fa fa-user"></i>
+                                            </button>
+                                            <button type="button" rel="tooltip" class="btn btn-success btn-icon btn-sm ">
+                                                <i class="fa fa-edit"></i>
+                                            </button>
+                                            <button type="button" rel="tooltip" class="btn btn-danger btn-icon btn-sm ">
+                                                <i class="fa fa-times"></i>
+                                            </button>
+                                        </td>
+                                    </tr>                            
+                                }
                             </tbody>
                         </table>
                     </div>

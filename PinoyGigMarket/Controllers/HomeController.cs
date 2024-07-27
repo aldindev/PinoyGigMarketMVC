@@ -13,20 +13,35 @@ namespace PinoyGigMarket.Controllers
         private readonly ApplicationDbContext _context;
         private readonly UserManager<AppUser> _userManager;
 
+
         public HomeController(ILogger<HomeController> logger, ApplicationDbContext context, UserManager<AppUser> userManager)
         {
             _logger = logger;
             _context = context;
             _userManager = userManager;
+
+
+
+
         }
 
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-            var currentUser = await _userManager.Users.FirstOrDefaultAsync();
-            ViewBag.CurrentUser = currentUser;
 
+
+            if (!User.Identity.IsAuthenticated)  //CHECK for NULLS Here
+            {
+                // User is logged in, perform actions for logged-in users
+                return View("Landing");
+            }
+            else
+            {
+                // User is not logged in, redirect or display login message
+            }
             return View();
         }
+
+
 
         public IActionResult Privacy()
         {
