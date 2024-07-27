@@ -32,7 +32,7 @@ namespace PinoyGigMarket.Controllers
             if (!User.Identity.IsAuthenticated)  //CHECK for NULLS Here
             {
                 // User is logged in, perform actions for logged-in users
-                return View("Landing");
+                return RedirectToAction("Register", "Account");
             }
             else
             {
