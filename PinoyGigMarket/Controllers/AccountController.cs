@@ -20,12 +20,36 @@ namespace PinoyGigMarket.Controllers
 
         // GET: /Account/Login
         [HttpGet]
-        public async Task<IActionResult> Login()
+        public IActionResult Login()
         {
-            var currentUser = await _userManager.Users.FirstOrDefaultAsync();
-            ViewBag.CurrentUser = currentUser;
             return View();
         }
+
+        [HttpPost]
+        public async Task<IActionResult> Login(LoginViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("Index", "Home");
+                }
+                else
+                {
+                    ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                    return View(model);
+                }
+            }
+            return View(model);
+        }
+
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Login", "Account");
+        }
+
         // GET: /Account/Register
         [HttpGet]
         public IActionResult Register()
