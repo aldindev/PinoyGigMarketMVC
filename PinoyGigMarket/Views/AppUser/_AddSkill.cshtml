@@ -1,0 +1,31 @@
+﻿@model PinoyGigMarket.Models.Skill
+
+<div class="card-body col-md-4">
+<div id="add-skill-form">
+        <form id="add-skill-form" method="post" asp-action="AddSkill" asp-controller="AppUser">
+        <div class="form-group">
+            <label asp-for="SkillName"></label>
+            <input asp-for="SkillName" class="form-control" />
+            <span asp-validation-for="SkillName" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Desc"></label>
+            <input asp-for="Desc" class="form-control" />
+            <span asp-validation-for="Desc" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Rate"></label>
+            <input asp-for="Rate" class="form-control" />
+            <span asp-validation-for="Rate" class="text-danger"></span>
+        </div>
+            <input type="hidden" asp-for="UserID" />
+        <button type="submit" class="btn btn-primary">Save</button>
+        <button type="button" class="btn btn-secondary" id="cancel-add-skill">Cancel</button>
+    </form>
+</div>
+</div>
+
+@section Scripts {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

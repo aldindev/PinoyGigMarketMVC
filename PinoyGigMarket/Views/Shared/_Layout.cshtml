@@ -52,12 +52,12 @@
             <div class="sidebar-wrapper">
                 <div class="user">
                     <div class="photo">
-                        <img src="~/images/faces/ayo-ogunseinde-2.jpg" />
+                        <img src="~/images/faces/defaultprofilepic.png" />
                     </div>
                     <div class="info">
                         <a data-toggle="collapse" href="#collapseExample" class="collapsed">
                             <span>
-                                Name Here
+                                <partial name="_LoginPartial" />
                                 <b class="caret"></b>
                             </span>
                         </a>
@@ -65,7 +65,7 @@
                         <div class="collapse" id="collapseExample">
                             <ul class="nav">
                                 <li>
-                                    <a href="#">
+                                        <a asp-area="" asp-controller="AppUser" asp-action="Index">
                                         <span class="sidebar-mini-icon">MP</span>
                                         <span class="sidebar-normal">My Profile</span>
                                     </a>
@@ -77,9 +77,21 @@
                                     </a>
                                 </li>
                                 <li>
+                                    <a asp-area="" asp-controller="AppUser" asp-action="MySkills">
+                                        <span class="sidebar-mini-icon">MS</span>
+                                        <span class="sidebar-normal">My Skills</span>
+                                    </a>
+                                </li>
+                                <li>
                                     <a href="#">
                                         <span class="sidebar-mini-icon">S</span>
                                         <span class="sidebar-normal">Settings</span>
+                                    </a>
+                                </li>
+                                <li>
+                                        <a asp-area="" asp-controller="Account" asp-action="Logout">
+                                        <span class="sidebar-mini-icon">L</span>
+                                        <span class="sidebar-normal">Logout</span>
                                     </a>
                                 </li>
                             </ul>
@@ -330,7 +342,7 @@
                                 <span class="navbar-toggler-bar bar3"></span>
                             </button>
                         </div>
-                        <a class="navbar-brand" href="javascript:;">Paper Dashboard 2 PRO</a>
+                        <a class="navbar-brand" href="javascript:;">Pinoy Gig Market</a>
                     </div>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-bar navbar-kebab"></span>
@@ -414,6 +426,7 @@
     <script src="~/js/plugins/chartjs.min.js"></script>
     <script src="~/js/plugins/nouislider.min.js"></script>
     <script src="~/js/paper-dashboard.js"></script>
+    @RenderSection("Scripts", required: false)
 
 </body>
 </html>

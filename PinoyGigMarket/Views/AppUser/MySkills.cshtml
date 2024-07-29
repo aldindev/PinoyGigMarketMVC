@@ -1,0 +1,83 @@
+﻿@model IEnumerable<PinoyGigMarket.Models.Skill>
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Skills";
+}
+
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-header">
+            <h4 class="card-title"> My Skills</h4>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table">
+                    <thead class="text-primary">
+                    <tr>
+                    <th class="text-center">
+                        #
+                    </th>
+                    <th>
+                        Skill
+                    </th>
+                    <th>
+                        Description
+                    </th>
+                    <th>
+                        Rate
+                    </th>
+                    <th class="text-right">
+                        Actions
+                    </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var skill in Model)
+                        {
+                            <tr>
+                                <td class="text-center">@skill.SkillId</td>
+                                <td>@skill.SkillName</td>
+                                <td>@skill.Desc</td>
+                                <td>@skill.Rate</td>                           
+                                <td>
+                                    <button type="button" rel="tooltip" class="btn btn-info btn-icon btn-sm">
+                                        <i class="fa fa-eye"></i>
+                                    </button>
+                                    <button type="button" rel="tooltip" class="btn btn-success btn-icon btn-sm">
+                                        <i class="fa fa-edit"></i>
+                                    </button>
+                                    <button type="button" rel="tooltip" class="btn btn-danger btn-icon btn-sm">
+                                        <i class="fa fa-times"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <div>
+                    <button class="btn btn-primary btn-round" id="show-add-skill-form">Add Skill</button>
+                </div>
+                <div id="add-skill-container"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#show-add-skill-form').click(function () {
+                $.get('@Url.Action("ShowAddSkillForm", "AppUser")', function (data) {
+                    $('#add-skill-container').html(data);
+                });
+            });
+
+            $(document).on('click', '#cancel-add-skill', function () {
+                $('#add-skill-container').html('');
+            });
+        });
+    </script>
+}

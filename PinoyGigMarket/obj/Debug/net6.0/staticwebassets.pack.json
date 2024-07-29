@@ -377,6 +377,10 @@
       "PackagePath": "staticwebassets\\images\\faces\\clem-onojeghuo-4.jpg"
     },
     {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\faces\\defaultprofilepic.png",
+      "PackagePath": "staticwebassets\\images\\faces\\defaultprofilepic.png"
+    },
+    {
       "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\faces\\erik-lucatero-1.jpg",
       "PackagePath": "staticwebassets\\images\\faces\\erik-lucatero-1.jpg"
     },

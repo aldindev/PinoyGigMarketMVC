@@ -16,17 +16,17 @@
     <link rel="icon" type="image/png" href="~/images/favicon.png" asp-append-version="true">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Paper Dashboard 2 PRO by Creative Tim
+    Pinoy Gig Market
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
   <!-- CSS Files -->
-  <link href="../../assets/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="../../assets/css/paper-dashboard.css?v=2.1.1" rel="stylesheet" />
+  <link href="/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/css/paper-dashboard.css?v=2.1.1" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
-  <link href="../../assets/demo/demo.css" rel="stylesheet" />
+  <link href="/demo/demo.css" rel="stylesheet" />
 </head>
 
    <body class="">
@@ -35,12 +35,12 @@
           <div class="col-md-4">
             <div class="card card-user">
               <div class="image">
-                                <img src="~/images/bg/damir-bosnjak.jpg" alt="..." asp-append-version="true">
+                                <img src="~/images/bg/damir-bosnjak.jpg" alt="Bacground Pic" >
               </div>
               <div class="card-body">
                 <div class="author">
                   <a href="#">
-                    <img class="avatar border-gray" src="~/images/mike.jpg" alt="...">
+                                <img class="avatar border-gray" src="~/images/faces/defaultprofilepic.png" alt="Profile Pic">
                     <h5 class="title">@Model.FirstName @Model.LastName</h5>
                   </a>
                   <p class="description">
@@ -80,7 +80,7 @@
                     <div class="row">
                       <div class="col-md-2 col-2">
                         <div class="avatar">
-                                                    <img src="~/images/faces/ayo-ogunseinde-2.jpg" alt="Circle Image" class="img-circle img-no-padding img-responsive" asp-append-version="true">
+                        <img src="~/images/faces/ayo-ogunseinde-2.jpg" alt="Circle Image" class="img-circle img-no-padding img-responsive" asp-append-version="true">
                         </div>
                       </div>
                       <div class="col-md-7 col-7">
@@ -148,13 +148,13 @@
                     <div class="col-md-3 px-1">
                       <div class="form-group">
                         <label>Username</label>
-                        <input type="text" class="form-control" placeholder="Username" value="michael23">
+                        <input type="text" class="form-control" placeholder="Username" value=@Model.UserName>
                       </div>
                     </div>
                     <div class="col-md-4 pl-1">
                       <div class="form-group">
                         <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" placeholder="Email">
+                        <input type="email" class="form-control" placeholder=@Model.Email>
                       </div>
                     </div>
                   </div>
@@ -216,13 +216,13 @@
       </div>
       
   <!--   Core JS Files   -->
-  <script src="../../assets/js/core/jquery.min.js"></script>
-  <script src="../../assets/js/core/popper.min.js"></script>
-  <script src="../../assets/js/core/bootstrap.min.js"></script>
-  <script src="../../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
-  <script src="../../assets/js/plugins/moment.min.js"></script>
+  <script src="/js/core/jquery.min.js"></script>
+  <script src="/js/core/popper.min.js"></script>
+  <script src="/js/core/bootstrap.min.js"></script>
+  <script src="/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <script src="/js/plugins/moment.min.js"></script>
   <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
-  <script src="../../assets/js/plugins/bootstrap-switch.js"></script>
+  <script src="/js/plugins/bootstrap-switch.js"></script>
   <!--  Plugin for Sweet Alert -->
   <script src="../../assets/js/plugins/sweetalert2.min.js"></script>
   <!-- Forms Validations Plugin -->
@@ -255,8 +255,8 @@
   <!--  Notifications Plugin    -->
   <script src="../../assets/js/plugins/bootstrap-notify.js"></script>
   <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
-  <script src="../../assets/js/paper-dashboard.min.js?v=2.1.1" type="text/javascript"></script><!-- Paper Dashboard DEMO methods, don't include it in your project! -->
-  <script src="../../assets/demo/demo.js"></script>
+  <script src="/js/paper-dashboard.min.js?v=2.1.1" type="text/javascript"></script><!-- Paper Dashboard DEMO methods, don't include it in your project! -->
+  <script src="/demo/demo.js"></script>
 </body>
 
 </html>
