@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using PinoyGigMarket.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 
 namespace PinoyGigMarket.Controllers
@@ -26,19 +28,36 @@ namespace PinoyGigMarket.Controllers
         }
 
         [HttpPost]
+        [AllowAnonymous]
         public async Task<IActionResult> Login(LoginViewModel model)
         {
             if (ModelState.IsValid)
             {
-                var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
-                if (result.Succeeded)
+                var user = await _userManager.FindByNameAsync(model.Email);
+
+                if (user != null)
                 {
-                    return RedirectToAction("Index", "Home");
-                }
-                else
-                {
-                    ModelState.AddModelError(string.Empty, "Invalid login attempt.");
-                    return View(model);
+                    var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false);
+                    if (result.Succeeded)
+                    {
+                        // Add custom claims
+                        var claims = new List<Claim>
+                    {
+                        new Claim(ClaimTypes.Name, user.UserName),
+                        new Claim("FirstName", user.FirstName),
+                        new Claim("LastName", user.LastName)
+                    };
+
+                        var identity = new ClaimsIdentity(claims, "CustomClaims");
+                        await _signInManager.SignInWithClaimsAsync(user, model.RememberMe, claims);
+
+                        return RedirectToAction("Index", "Home");
+                    }
+                    else
+                    {
+                        ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                        return View(model);
+                    }
                 }
             }
             return View(model);
