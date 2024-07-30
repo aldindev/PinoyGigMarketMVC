@@ -7,12 +7,14 @@ namespace PinoyGigMarket.Models
     {
         [Key]
         public int SkillId { get; set; }
-
+        [Required]
         [ForeignKey("User")]
         public string UserID { get; set; }
-
+        [Required]
         public string SkillName { get; set; }
+        [Required]
         public string Desc { get; set; }
+        [Required]
         public string Rate { get; set; }
 
         // Navigation property

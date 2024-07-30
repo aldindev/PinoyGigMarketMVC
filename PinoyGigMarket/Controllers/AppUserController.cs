@@ -30,50 +30,59 @@ namespace PinoyGigMarket.Controllers
 
         public  async Task<IActionResult> MySkills()
         {
-            // Get the currently logged-in user
-            var currentUser = await _userManager.GetUserAsync(User);
-            if (currentUser == null)
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null)
             {
-                // Handle the case where no user is logged in
-                return RedirectToAction("Login", "Account");
+                return RedirectToAction("Index", "Home");
             }
 
-            // Get the skills of the current logged-in user
-            var myskills = await _context.Skills
-                .Where(s => s.UserID == currentUser.Id)
-                .Include(s => s.User)
+            var mySkills = await _context.Skills
+                .Where(s => s.UserID == user.Id)
+                .Select(s => new SkillViewModel
+                {
+                    SkillId = s.SkillId,
+                    SkillName = s.SkillName,
+                    Desc = s.Desc,
+                    Rate = s.Rate
+                })
                 .ToListAsync();
 
-            return View(myskills);
+            return View(mySkills);
         }
 
         public IActionResult ShowAddSkillForm()
         {
-            return PartialView("_AddSkill");
+            return PartialView("_AddSkill", new SkillViewModel());
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddSkill(Skill skill)
+        public async Task<IActionResult> AddSkill(SkillViewModel skillViewModel)
         {
-            var currentUser = await _userManager.GetUserAsync(User);
-            if (currentUser == null)
-            {
-                // Handle the case where no user is logged in
-                return RedirectToAction("Login", "Account");
-            }
+            var user = await _userManager.GetUserAsync(User);
 
-            // Set the UserID and User properties
-            skill.UserID = currentUser.Id;
-            skill.User = currentUser;
+            if (user == null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
 
             if (ModelState.IsValid)
             {
+                var skill = new Skill
+                {
+                    SkillName = skillViewModel.SkillName,
+                    Desc = skillViewModel.Desc,
+                    Rate = skillViewModel.Rate,
+                    UserID = user.Id,
+                    User = user
+                };
+
                 _context.Skills.Add(skill);
                 await _context.SaveChangesAsync();
                 return RedirectToAction("MySkills");
             }
 
-            return PartialView("_AddSkill", skill);
+            return PartialView("_AddSkill", skillViewModel);
         }
     }
 }
+

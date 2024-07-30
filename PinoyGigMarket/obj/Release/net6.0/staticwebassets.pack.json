@@ -1,0 +1,1521 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\PinoyGigMarket.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PinoyGigMarket.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\css\\paper-dashboard.css",
+      "PackagePath": "staticwebassets\\css\\paper-dashboard.css"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\css\\paper-dashboard.css.map",
+      "PackagePath": "staticwebassets\\css\\paper-dashboard.css.map"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\css\\paper-dashboard.min.css",
+      "PackagePath": "staticwebassets\\css\\paper-dashboard.min.css"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\demo\\demo.css",
+      "PackagePath": "staticwebassets\\demo\\demo.css"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\demo\\demo.js",
+      "PackagePath": "staticwebassets\\demo\\demo.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\fonts\\nucleo-icons.eot",
+      "PackagePath": "staticwebassets\\fonts\\nucleo-icons.eot"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\fonts\\nucleo-icons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\nucleo-icons.ttf"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\fonts\\nucleo-icons.woff",
+      "PackagePath": "staticwebassets\\fonts\\nucleo-icons.woff"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\fonts\\nucleo-icons.woff2",
+      "PackagePath": "staticwebassets\\fonts\\nucleo-icons.woff2"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\AU.png",
+      "PackagePath": "staticwebassets\\images\\AU.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\BR.png",
+      "PackagePath": "staticwebassets\\images\\BR.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\DE.png",
+      "PackagePath": "staticwebassets\\images\\DE.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\GB.png",
+      "PackagePath": "staticwebassets\\images\\GB.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\RO.png",
+      "PackagePath": "staticwebassets\\images\\RO.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\US.png",
+      "PackagePath": "staticwebassets\\images\\US.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\agenda.png",
+      "PackagePath": "staticwebassets\\images\\agenda.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\apple-icon.png",
+      "PackagePath": "staticwebassets\\images\\apple-icon.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\ana-bernardo.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\ana-bernardo.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\anders-jilden.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\anders-jilden.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\angelo-pantazis.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\angelo-pantazis.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\ben-white.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\ben-white.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\bruno-abatti.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\bruno-abatti.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\chris-karidisz.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\chris-karidisz.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\clark-street-mercantile.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\clark-street-mercantile.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\damir-bosnjak.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\damir-bosnjak.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\daniel-olahh.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\daniel-olahh.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\daniel-olahs.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\daniel-olahs.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\david-marcu.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\david-marcu.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\fabio-mangione.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\fabio-mangione.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\federico-beccari.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\federico-beccari.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\fog-low.png",
+      "PackagePath": "staticwebassets\\images\\bg\\fog-low.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\forest-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\forest-bg.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\galen-crout.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\galen-crout.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\gerrit-vermeulen.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\gerrit-vermeulen.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\gukhwa-jang.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\gukhwa-jang.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\gukhwa-jangs.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\gukhwa-jangs.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\ilya-yakover.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\ilya-yakover.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\ipad.png",
+      "PackagePath": "staticwebassets\\images\\bg\\ipad.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\iphone.png",
+      "PackagePath": "staticwebassets\\images\\bg\\iphone.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\jan-sendereks.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\jan-sendereks.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\jeff-sheldon.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\jeff-sheldon.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\jeremy-yap.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\jeremy-yap.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\john-towner.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\john-towner.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\joshua-earles.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\joshua-earles.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\joshua-earlesz.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\joshua-earlesz.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\joshua-earlez.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\joshua-earlez.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\joshua-stannard.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\joshua-stannard.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\leonard-cotte.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\leonard-cotte.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\luke-chesser.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\luke-chesser.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\markus-spiske-187777.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\markus-spiske-187777.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\martin-knize.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\martin-knize.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\miguel-perales.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\miguel-perales.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\mika-matin.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\mika-matin.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\neill-kumar.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\neill-kumar.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\noah-rosenfield.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\noah-rosenfield.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\opt_gsdk_new_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\opt_gsdk_new_thumbnail.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\opt_lbd_pro_new_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\opt_lbd_pro_new_thumbnail.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\opt_pk_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\opt_pk_thumbnail.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\patrick-tomasso.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\patrick-tomasso.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\pavel-kosov.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\pavel-kosov.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\pedro-lastra.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\pedro-lastra.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\pk-pro-cover.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\pk-pro-cover.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\por7o.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\por7o.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\rawpixel-com-2.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\rawpixel-com-2.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\rawpixel-com.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\rawpixel-com.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\rawpixel-comm.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\rawpixel-comm.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\rawpixel-coms.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\rawpixel-coms.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\rodrigo-ardilha.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\rodrigo-ardilha.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\roger-keller.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\roger-keller.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\sebastien-gabrieles.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\sebastien-gabrieles.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\soroush-karimi.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\soroush-karimi.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\stephanie-krist.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\stephanie-krist.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\takahiro-sakamoto.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\takahiro-sakamoto.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\the-how-photographer.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\the-how-photographer.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\uriel-soberanes.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\uriel-soberanes.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\val-vesa.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\val-vesa.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\vincent-versluis.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\vincent-versluis.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\bg\\zachary-staines.jpg",
+      "PackagePath": "staticwebassets\\images\\bg\\zachary-staines.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\default-avatar.png",
+      "PackagePath": "staticwebassets\\images\\default-avatar.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\emilyz.jpg",
+      "PackagePath": "staticwebassets\\images\\emilyz.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\evernote.png",
+      "PackagePath": "staticwebassets\\images\\evernote.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\face-2.jpg",
+      "PackagePath": "staticwebassets\\images\\face-2.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\face-3.jpg",
+      "PackagePath": "staticwebassets\\images\\face-3.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\faces\\ayo-ogunseinde-1.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\ayo-ogunseinde-1.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\faces\\ayo-ogunseinde-2.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\ayo-ogunseinde-2.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\faces\\clem-onojeghuo-1.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\clem-onojeghuo-1.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\faces\\clem-onojeghuo-2.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\clem-onojeghuo-2.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\faces\\clem-onojeghuo-3.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\clem-onojeghuo-3.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\faces\\clem-onojeghuo-4.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\clem-onojeghuo-4.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\faces\\defaultprofilepic.png",
+      "PackagePath": "staticwebassets\\images\\faces\\defaultprofilepic.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\faces\\erik-lucatero-1.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\erik-lucatero-1.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\faces\\erik-lucatero-2.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\erik-lucatero-2.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\faces\\joe-gardner-1.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\joe-gardner-1.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\faces\\joe-gardner-2.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\joe-gardner-2.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\faces\\kaci-baum-1.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\kaci-baum-1.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\faces\\kaci-baum-2.jpg",
+      "PackagePath": "staticwebassets\\images\\faces\\kaci-baum-2.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\AD.png",
+      "PackagePath": "staticwebassets\\images\\flags\\AD.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\AE.png",
+      "PackagePath": "staticwebassets\\images\\flags\\AE.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\AG.png",
+      "PackagePath": "staticwebassets\\images\\flags\\AG.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\AM.png",
+      "PackagePath": "staticwebassets\\images\\flags\\AM.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\AR.png",
+      "PackagePath": "staticwebassets\\images\\flags\\AR.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\AT.png",
+      "PackagePath": "staticwebassets\\images\\flags\\AT.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\AU.png",
+      "PackagePath": "staticwebassets\\images\\flags\\AU.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\BE.png",
+      "PackagePath": "staticwebassets\\images\\flags\\BE.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\BF.png",
+      "PackagePath": "staticwebassets\\images\\flags\\BF.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\BG.png",
+      "PackagePath": "staticwebassets\\images\\flags\\BG.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\BO.png",
+      "PackagePath": "staticwebassets\\images\\flags\\BO.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\BR.png",
+      "PackagePath": "staticwebassets\\images\\flags\\BR.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\CA.png",
+      "PackagePath": "staticwebassets\\images\\flags\\CA.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\CD.png",
+      "PackagePath": "staticwebassets\\images\\flags\\CD.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\CG.png",
+      "PackagePath": "staticwebassets\\images\\flags\\CG.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\CH.png",
+      "PackagePath": "staticwebassets\\images\\flags\\CH.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\CL.png",
+      "PackagePath": "staticwebassets\\images\\flags\\CL.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\CM.png",
+      "PackagePath": "staticwebassets\\images\\flags\\CM.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\CN.png",
+      "PackagePath": "staticwebassets\\images\\flags\\CN.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\CO.png",
+      "PackagePath": "staticwebassets\\images\\flags\\CO.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\CZ.png",
+      "PackagePath": "staticwebassets\\images\\flags\\CZ.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\DE.png",
+      "PackagePath": "staticwebassets\\images\\flags\\DE.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\DJ.png",
+      "PackagePath": "staticwebassets\\images\\flags\\DJ.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\DK.png",
+      "PackagePath": "staticwebassets\\images\\flags\\DK.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\DZ.png",
+      "PackagePath": "staticwebassets\\images\\flags\\DZ.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\EE.png",
+      "PackagePath": "staticwebassets\\images\\flags\\EE.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\EG.png",
+      "PackagePath": "staticwebassets\\images\\flags\\EG.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\ES.png",
+      "PackagePath": "staticwebassets\\images\\flags\\ES.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\FI.png",
+      "PackagePath": "staticwebassets\\images\\flags\\FI.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\FR.png",
+      "PackagePath": "staticwebassets\\images\\flags\\FR.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\GA.png",
+      "PackagePath": "staticwebassets\\images\\flags\\GA.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\GB.png",
+      "PackagePath": "staticwebassets\\images\\flags\\GB.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\GM.png",
+      "PackagePath": "staticwebassets\\images\\flags\\GM.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\GT.png",
+      "PackagePath": "staticwebassets\\images\\flags\\GT.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\HN.png",
+      "PackagePath": "staticwebassets\\images\\flags\\HN.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\HT.png",
+      "PackagePath": "staticwebassets\\images\\flags\\HT.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\HU.png",
+      "PackagePath": "staticwebassets\\images\\flags\\HU.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\ID.png",
+      "PackagePath": "staticwebassets\\images\\flags\\ID.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\IE.png",
+      "PackagePath": "staticwebassets\\images\\flags\\IE.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\IL.png",
+      "PackagePath": "staticwebassets\\images\\flags\\IL.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\IN.png",
+      "PackagePath": "staticwebassets\\images\\flags\\IN.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\IQ.png",
+      "PackagePath": "staticwebassets\\images\\flags\\IQ.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\IR.png",
+      "PackagePath": "staticwebassets\\images\\flags\\IR.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\IT.png",
+      "PackagePath": "staticwebassets\\images\\flags\\IT.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\JM.png",
+      "PackagePath": "staticwebassets\\images\\flags\\JM.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\JO.png",
+      "PackagePath": "staticwebassets\\images\\flags\\JO.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\JP.png",
+      "PackagePath": "staticwebassets\\images\\flags\\JP.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\KG.png",
+      "PackagePath": "staticwebassets\\images\\flags\\KG.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\KN.png",
+      "PackagePath": "staticwebassets\\images\\flags\\KN.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\KP.png",
+      "PackagePath": "staticwebassets\\images\\flags\\KP.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\KR.png",
+      "PackagePath": "staticwebassets\\images\\flags\\KR.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\KW.png",
+      "PackagePath": "staticwebassets\\images\\flags\\KW.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\KZ.png",
+      "PackagePath": "staticwebassets\\images\\flags\\KZ.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\LA.png",
+      "PackagePath": "staticwebassets\\images\\flags\\LA.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\LB.png",
+      "PackagePath": "staticwebassets\\images\\flags\\LB.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\LC.png",
+      "PackagePath": "staticwebassets\\images\\flags\\LC.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\LS.png",
+      "PackagePath": "staticwebassets\\images\\flags\\LS.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\LU.png",
+      "PackagePath": "staticwebassets\\images\\flags\\LU.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\LV.png",
+      "PackagePath": "staticwebassets\\images\\flags\\LV.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\MG.png",
+      "PackagePath": "staticwebassets\\images\\flags\\MG.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\MK.png",
+      "PackagePath": "staticwebassets\\images\\flags\\MK.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\ML.png",
+      "PackagePath": "staticwebassets\\images\\flags\\ML.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\MM.png",
+      "PackagePath": "staticwebassets\\images\\flags\\MM.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\MT.png",
+      "PackagePath": "staticwebassets\\images\\flags\\MT.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\MX.png",
+      "PackagePath": "staticwebassets\\images\\flags\\MX.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\NA.png",
+      "PackagePath": "staticwebassets\\images\\flags\\NA.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\NE.png",
+      "PackagePath": "staticwebassets\\images\\flags\\NE.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\NG.png",
+      "PackagePath": "staticwebassets\\images\\flags\\NG.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\NI.png",
+      "PackagePath": "staticwebassets\\images\\flags\\NI.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\NL.png",
+      "PackagePath": "staticwebassets\\images\\flags\\NL.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\NO.png",
+      "PackagePath": "staticwebassets\\images\\flags\\NO.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\OM.png",
+      "PackagePath": "staticwebassets\\images\\flags\\OM.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\PA.png",
+      "PackagePath": "staticwebassets\\images\\flags\\PA.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\PE.png",
+      "PackagePath": "staticwebassets\\images\\flags\\PE.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\PG.png",
+      "PackagePath": "staticwebassets\\images\\flags\\PG.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\PK.png",
+      "PackagePath": "staticwebassets\\images\\flags\\PK.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\PL.png",
+      "PackagePath": "staticwebassets\\images\\flags\\PL.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\PT.png",
+      "PackagePath": "staticwebassets\\images\\flags\\PT.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\PY.png",
+      "PackagePath": "staticwebassets\\images\\flags\\PY.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\QA.png",
+      "PackagePath": "staticwebassets\\images\\flags\\QA.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\RO.png",
+      "PackagePath": "staticwebassets\\images\\flags\\RO.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\RU.png",
+      "PackagePath": "staticwebassets\\images\\flags\\RU.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\RW.png",
+      "PackagePath": "staticwebassets\\images\\flags\\RW.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\SA.png",
+      "PackagePath": "staticwebassets\\images\\flags\\SA.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\SE.png",
+      "PackagePath": "staticwebassets\\images\\flags\\SE.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\SG.png",
+      "PackagePath": "staticwebassets\\images\\flags\\SG.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\SL.png",
+      "PackagePath": "staticwebassets\\images\\flags\\SL.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\SN.png",
+      "PackagePath": "staticwebassets\\images\\flags\\SN.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\SO.png",
+      "PackagePath": "staticwebassets\\images\\flags\\SO.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\SV.png",
+      "PackagePath": "staticwebassets\\images\\flags\\SV.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\TD.png",
+      "PackagePath": "staticwebassets\\images\\flags\\TD.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\TJ.png",
+      "PackagePath": "staticwebassets\\images\\flags\\TJ.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\TL.png",
+      "PackagePath": "staticwebassets\\images\\flags\\TL.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\TR.png",
+      "PackagePath": "staticwebassets\\images\\flags\\TR.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\TZ.png",
+      "PackagePath": "staticwebassets\\images\\flags\\TZ.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\UA.png",
+      "PackagePath": "staticwebassets\\images\\flags\\UA.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\US.png",
+      "PackagePath": "staticwebassets\\images\\flags\\US.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\VE.png",
+      "PackagePath": "staticwebassets\\images\\flags\\VE.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\VN.png",
+      "PackagePath": "staticwebassets\\images\\flags\\VN.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\flags\\YE.png",
+      "PackagePath": "staticwebassets\\images\\flags\\YE.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\header.jpg",
+      "PackagePath": "staticwebassets\\images\\header.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\image_placeholder.jpg",
+      "PackagePath": "staticwebassets\\images\\image_placeholder.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\james.jpg",
+      "PackagePath": "staticwebassets\\images\\james.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\logo-small.png",
+      "PackagePath": "staticwebassets\\images\\logo-small.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\mike.jpg",
+      "PackagePath": "staticwebassets\\images\\mike.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\now-logo.png",
+      "PackagePath": "staticwebassets\\images\\now-logo.png"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\placeholder.jpg",
+      "PackagePath": "staticwebassets\\images\\placeholder.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\stylus.jpg",
+      "PackagePath": "staticwebassets\\images\\stylus.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\js\\core\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\core\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\js\\core\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\core\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\js\\core\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\core\\popper.min.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\js\\paper-dashboard.js",
+      "PackagePath": "staticwebassets\\js\\paper-dashboard.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\js\\paper-dashboard.js.map",
+      "PackagePath": "staticwebassets\\js\\paper-dashboard.js.map"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\js\\paper-dashboard.min.js",
+      "PackagePath": "staticwebassets\\js\\paper-dashboard.min.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\js\\plugins\\bootstrap-datetimepicker.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\bootstrap-datetimepicker.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\js\\plugins\\bootstrap-notify.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\bootstrap-notify.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\js\\plugins\\bootstrap-selectpicker.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\bootstrap-selectpicker.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\js\\plugins\\bootstrap-switch.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\bootstrap-switch.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\js\\plugins\\bootstrap-tagsinput.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\bootstrap-tagsinput.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\js\\plugins\\chartjs.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\chartjs.min.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\js\\plugins\\fullcalendar\\daygrid.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\fullcalendar\\daygrid.min.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\js\\plugins\\fullcalendar\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\fullcalendar\\fullcalendar.min.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\js\\plugins\\fullcalendar\\interaction.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\fullcalendar\\interaction.min.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\js\\plugins\\fullcalendar\\timegrid.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\fullcalendar\\timegrid.min.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\js\\plugins\\jasny-bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\jasny-bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\js\\plugins\\jquery-jvectormap.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\jquery-jvectormap.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\js\\plugins\\jquery.bootstrap-wizard.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\jquery.bootstrap-wizard.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\js\\plugins\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\js\\plugins\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\js\\plugins\\moment.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\moment.min.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\js\\plugins\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\nouislider.min.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\js\\plugins\\perfect-scrollbar.jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\perfect-scrollbar.jquery.min.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\js\\plugins\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\sweetalert2.min.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_alerts.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_alerts.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_animated-buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_animated-buttons.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_badges.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_badges.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_cards.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_cards.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_carousel.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_checkboxes-radio.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_checkboxes-radio.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_dropdown.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_example-pages.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_example-pages.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_fixed-plugin.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_fixed-plugin.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_footers.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_footers.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_images.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_info-areas.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_info-areas.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_inputs.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_inputs.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_media-queries.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_media-queries.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_misc-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_misc-extend.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_misc.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_misc.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_mixins.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_modals.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_modals.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_navbar.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_nucleo-outline.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_nucleo-outline.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_page-header.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_page-header.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_pagination.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_pills.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_pills.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_popups.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_popups.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_progress.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_responsive.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_responsive.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_sections.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_sections.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_sidebar-and-main-panel.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_sidebar-and-main-panel.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_social-buttons.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_tables.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_tabs.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_tabs.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_timeline.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_timeline.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_typography.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_typography.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\_variables.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\cards\\_card-background.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\cards\\_card-background.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\cards\\_card-chart.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\cards\\_card-chart.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\cards\\_card-collapse.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\cards\\_card-collapse.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\cards\\_card-contributions.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\cards\\_card-contributions.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\cards\\_card-info-area.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\cards\\_card-info-area.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\cards\\_card-lock.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\cards\\_card-lock.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\cards\\_card-map.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\cards\\_card-map.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\cards\\_card-plain.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\cards\\_card-plain.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\cards\\_card-pricing.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\cards\\_card-pricing.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\cards\\_card-profile.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\cards\\_card-profile.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\cards\\_card-signup.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\cards\\_card-signup.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\cards\\_card-stats-mini.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\cards\\_card-stats-mini.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\cards\\_card-stats.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\cards\\_card-stats.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\cards\\_card-subcategories.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\cards\\_card-subcategories.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\cards\\_card-tasks.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\cards\\_card-tasks.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\cards\\_card-testimonials.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\cards\\_card-testimonials.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\cards\\_card-user.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\cards\\_card-user.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\mixins\\_badges.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\mixins\\_badges.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\mixins\\_cards.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\mixins\\_cards.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\mixins\\_chartist.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\mixins\\_chartist.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\mixins\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\mixins\\_dropdown.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\mixins\\_inputs.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\mixins\\_inputs.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\mixins\\_modals.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\mixins\\_modals.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\mixins\\_page-header.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\mixins\\_page-header.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\mixins\\_popovers.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\mixins\\_popovers.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\mixins\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\mixins\\_social-buttons.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\mixins\\_tags.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\mixins\\_tags.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\mixins\\_transparency.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\mixins\\_transparency.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\mixins\\_vendor-prefixes-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\mixins\\_vendor-prefixes-extend.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\mixins\\_vendor-prefixes.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\mixins\\_vendor-prefixes.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\mixins\\_wizard.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\mixins\\_wizard.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\plugins\\_plugin-animate-bootstrap-notify.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\plugins\\_plugin-animate-bootstrap-notify.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\plugins\\_plugin-bootstrap-select.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\plugins\\_plugin-bootstrap-select.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\plugins\\_plugin-bootstrap-switch.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\plugins\\_plugin-bootstrap-switch.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\plugins\\_plugin-bootstrap-table.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\plugins\\_plugin-bootstrap-table.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\plugins\\_plugin-card-wizard.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\plugins\\_plugin-card-wizard.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\plugins\\_plugin-datatables.net.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\plugins\\_plugin-datatables.net.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\plugins\\_plugin-datetimepicker.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\plugins\\_plugin-datetimepicker.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\plugins\\_plugin-fullcalendar.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\plugins\\_plugin-fullcalendar.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\plugins\\_plugin-jasny-fileupload.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\plugins\\_plugin-jasny-fileupload.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\plugins\\_plugin-jquery.jvectormap.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\plugins\\_plugin-jquery.jvectormap.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\plugins\\_plugin-nouislider.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\plugins\\_plugin-nouislider.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\plugins\\_plugin-perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\plugins\\_plugin-perfect-scrollbar.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\plugins\\_plugin-sweetalert2.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\plugins\\_plugin-sweetalert2.scss"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\scss\\paper-dashboard\\plugins\\_plugin-tagsinput.scss",
+      "PackagePath": "staticwebassets\\scss\\paper-dashboard\\plugins\\_plugin-tagsinput.scss"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.PinoyGigMarket.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.PinoyGigMarket.props",
+      "PackagePath": "build\\PinoyGigMarket.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.PinoyGigMarket.props",
+      "PackagePath": "buildMultiTargeting\\PinoyGigMarket.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.PinoyGigMarket.props",
+      "PackagePath": "buildTransitive\\PinoyGigMarket.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
