@@ -38,12 +38,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwVXNlclxfQWRkU2tpbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/PORTFOLIO PROJECT/PinoyGigMarketMVC/PinoyGigMarketMVC/PinoyGigMarket/Views/AppUser/_EditSkill.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwVXNlclxfRWRpdFNraWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/PORTFOLIO PROJECT/PinoyGigMarketMVC/PinoyGigMarketMVC/PinoyGigMarket/Views/Friends/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnJpZW5kc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/PORTFOLIO PROJECT/PinoyGigMarketMVC/PinoyGigMarketMVC/PinoyGigMarket/Views/Gigs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lnc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/PORTFOLIO PROJECT/PinoyGigMarketMVC/PinoyGigMarketMVC/PinoyGigMarket/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/PORTFOLIO PROJECT/PinoyGigMarketMVC/PinoyGigMarketMVC/PinoyGigMarket/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/PORTFOLIO PROJECT/PinoyGigMarketMVC/PinoyGigMarketMVC/PinoyGigMarket/Views/NewsFeed/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c0ZlZWRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/PORTFOLIO PROJECT/PinoyGigMarketMVC/PinoyGigMarketMVC/PinoyGigMarket/Views/Project/Index.cshtml]

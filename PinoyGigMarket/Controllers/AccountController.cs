@@ -91,7 +91,8 @@ namespace PinoyGigMarket.Controllers
                     Email = model.Email,
                     FirstName = model.FirstName,
                     LastName = model.LastName,
-                    Phone = model.Phone
+                    Phone = model.Phone,
+                    UserType = model.UserType
                 };
 
                 var result = await _userManager.CreateAsync(user, model.Password);
