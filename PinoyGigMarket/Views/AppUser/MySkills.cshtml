@@ -46,12 +46,14 @@
                                     <button type="button" rel="tooltip" class="btn btn-info btn-icon btn-sm">
                                         <i class="fa fa-eye"></i>
                                     </button>
-                                    <button type="button" rel="tooltip" class="btn btn-success btn-icon btn-sm">
+                                    <button type="button" rel="tooltip" class="btn btn-success btn-icon btn-sm edit-skill" data-skill-id="@skill.SkillId">
                                         <i class="fa fa-edit"></i>
                                     </button>
-                                    <button type="button" rel="tooltip" class="btn btn-danger btn-icon btn-sm">
+                                    <form asp-action="DeleteSkill" asp-route-id="@skill.SkillId" method="post" style="display:inline;">
+                                    <button type="submit" rel="tooltip" class="btn btn-danger btn-icon btn-sm delete-skill">
                                         <i class="fa fa-times"></i>
                                     </button>
+                                    </form>
                                 </td>
                             </tr>
                         }
@@ -61,6 +63,7 @@
                     <button class="btn btn-primary btn-round" id="show-add-skill-form">Add Skill</button>
                 </div>
                 <div id="add-skill-container"></div>
+                <div id="edit-skill-container"></div>
             </div>
         </div>
     </div>
@@ -77,6 +80,23 @@
 
             $(document).on('click', '#cancel-add-skill', function () {
                 $('#add-skill-container').html('');
+            });
+
+            $('.delete-skill').click(function (e) {
+                if (!confirm('Are you sure you want to delete this skill?')) {
+                    e.preventDefault();
+                }
+            });
+
+            $('.edit-skill').click(function () {
+                var skillId = $(this).data('skill-id');
+                $.get('@Url.Action("EditSkill", "AppUser")/' + skillId, function (data) {
+                    $('#edit-skill-container').html(data);
+                });
+            });
+
+            $(document).on('click', '#cancel-edit-skill', function () {
+                $('#edit-skill-container').html('');
             });
         });
     </script>

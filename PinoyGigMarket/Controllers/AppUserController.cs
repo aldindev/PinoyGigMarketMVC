@@ -83,6 +83,82 @@ namespace PinoyGigMarket.Controllers
 
             return PartialView("_AddSkill", skillViewModel);
         }
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteSkill(int id)
+        {
+            var skill = await _context.Skills.FindAsync(id);
+            if (skill == null)
+            {
+                return NotFound();
+            }
+
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null || skill.UserID != user.Id)
+            {
+                return Unauthorized();
+            }
+
+            _context.Skills.Remove(skill);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(MySkills));
+        }
+
+        public async Task<IActionResult> EditSkill(int id)
+        {
+            var skill = await _context.Skills.FindAsync(id);
+            if (skill == null)
+            {
+                return NotFound();
+            }
+
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null || skill.UserID != user.Id)
+            {
+                return Unauthorized();
+            }
+
+            var skillViewModel = new SkillViewModel
+            {
+                SkillId = skill.SkillId,
+                SkillName = skill.SkillName,
+                Desc = skill.Desc,
+                Rate = skill.Rate
+            };
+
+            return PartialView("_EditSkill", skillViewModel);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> EditSkill(SkillViewModel skillViewModel)
+        {
+            if (ModelState.IsValid)
+            {
+                var skill = await _context.Skills.FindAsync(skillViewModel.SkillId);
+                if (skill == null)
+                {
+                    return NotFound();
+                }
+
+                var user = await _userManager.GetUserAsync(User);
+                if (user == null || skill.UserID != user.Id)
+                {
+                    return Unauthorized();
+                }
+
+                skill.SkillName = skillViewModel.SkillName;
+                skill.Desc = skillViewModel.Desc;
+                skill.Rate = skillViewModel.Rate;
+
+                _context.Update(skill);
+                await _context.SaveChangesAsync();
+
+                return RedirectToAction(nameof(MySkills));
+            }
+
+            return PartialView("_EditSkill", skillViewModel);
+        }
     }
 }
 

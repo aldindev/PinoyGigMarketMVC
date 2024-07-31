@@ -21,14 +21,25 @@ namespace PinoyGigMarket.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var currentUser = await _userManager.Users.FirstOrDefaultAsync();
-            ViewBag.CurrentUser = currentUser;
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null)
+            {
+                // Handle the case where no users are found
+                return View("NoUsers"); // Create a view for this case or handle it differently
+            }
 
-            var projects = await _context.Projects
-                .Where(p => p.ClientID == "ac5de9ea-c85a-4c89-8492-5524847315c0")
+            var myProjects = await _context.Projects
+                .Where(s => s.ClientID == user.Id)
+                .Select(s => new ProjectViewModel
+                {
+                    ProjectId = s.ProjectId,
+                    Title = s.Title,
+                    Desc = s.Desc,
+                    Status = s.Status,
+                    Budget = s.Budget
+                })
                 .ToListAsync();
-
-            return View(projects);
+            return View(myProjects);
         }
         public async Task<IActionResult> Register()
         {

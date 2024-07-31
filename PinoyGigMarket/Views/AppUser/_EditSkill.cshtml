@@ -1,0 +1,29 @@
+﻿@model PinoyGigMarket.Models.SkillViewModel
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="card-body col-md-4">
+<form asp-action="EditSkill" method="post">
+    <input type="hidden" asp-for="SkillId" />
+    <div class="form-group">
+        <label asp-for="SkillName"></label>
+        <input asp-for="SkillName" class="form-control" />
+        <span asp-validation-for="SkillName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Desc"></label>
+        <textarea asp-for="Desc" class="form-control"></textarea>
+        <span asp-validation-for="Desc" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Rate"></label>
+        <input asp-for="Rate" class="form-control" />
+        <span asp-validation-for="Rate" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+    <button type="button" class="btn btn-secondary" id="cancel-edit-skill">Cancel</button>
+</form>
+</div>
