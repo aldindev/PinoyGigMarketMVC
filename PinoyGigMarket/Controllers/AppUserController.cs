@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PinoyGigMarket.Data;
 using PinoyGigMarket.Models;
+using System;
 
 namespace PinoyGigMarket.Controllers
 {
@@ -10,22 +11,28 @@ namespace PinoyGigMarket.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly UserManager<AppUser> _userManager;
+        private readonly IWebHostEnvironment _environment;
 
-        public AppUserController(ApplicationDbContext context, UserManager<AppUser> userManager)
+        public AppUserController(ApplicationDbContext context, UserManager<AppUser> userManager, IWebHostEnvironment environment)
         {
             _context = context;
             _userManager = userManager;
+            _environment = environment;
         }
         public async Task<IActionResult> Index()
         {
 
             var user = await _userManager.GetUserAsync(User);
-            if (user == null)
+            var model = new ProfileViewModel
             {
-                // Handle the case where no users are found
-                return View("NoUsers"); // Create a view for this case or handle it differently
-            }
-            return View(user);
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                Email = user.Email,
+                UserName = user.UserName,
+                ProfilePicturePath = user.ProfilePicturePath // Include other fields as needed
+            };
+
+            return View(model); // This should match the view's expected model type
         }
 
         public  async Task<IActionResult> MySkills()
@@ -159,6 +166,70 @@ namespace PinoyGigMarket.Controllers
 
             return PartialView("_EditSkill", skillViewModel);
         }
+
+        [HttpPost]
+        public IActionResult UpdateProfile()
+        {
+            var user = _userManager.GetUserAsync(User).Result;
+            var model = new ProfileViewModel
+            {
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                Email = user.Email,
+                UserName = user.UserName,
+                ProfilePicturePath = user.ProfilePicturePath // Include other fields as needed
+            };
+
+            return View(model); // This should match the view's expected model type
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> UploadProfilePic(ProfileViewModel model)
+        {
+
+            model.ProfilePicturePath = "temporary";
+
+            if (ModelState.IsValid)
+            {
+                var user = await _userManager.GetUserAsync(User);
+                if (user == null) return NotFound();
+
+                if (model.ProfilePicture != null)
+                {
+                    var uniqueFileName = Guid.NewGuid().ToString() + "_" + model.ProfilePicture.FileName;
+                    var uploads = Path.Combine(_environment.WebRootPath, "uploads", "profilepics");
+                    var filePath = Path.Combine(uploads, uniqueFileName);
+
+                    if (!Directory.Exists(uploads))
+                    {
+                        Directory.CreateDirectory(uploads);
+                    }
+
+                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await model.ProfilePicture.CopyToAsync(fileStream);
+                    }
+
+                    user.ProfilePicturePath = "/uploads/profilepics/" + uniqueFileName;
+                }
+
+                var result = await _userManager.UpdateAsync(user);
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("Index"); // Adjust as needed
+                }
+
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError(string.Empty, error.Description);
+                }
+            
+            }
+
+            return RedirectToAction("Index"); 
+        }
+
+
     }
 }
 

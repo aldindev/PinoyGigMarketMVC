@@ -1,17 +1,13 @@
 ﻿@using Microsoft.AspNetCore.Identity
-
 @inject SignInManager<AppUser> SignInManager
 @inject UserManager<AppUser> UserManager
 
 @if (User.Identity.IsAuthenticated)
 {
     var user = await UserManager.GetUserAsync(User);
+  
 
-    <div class="navbar-nav ml-auto">
-        @if (user != null)
-        {
-        @user.FirstName @user.LastName 
-        }
+    <div class="photo">
+        <img class="avatar border-gray" src="@user.ProfilePicturePath" alt="Profile Pic">
     </div>
 }
-

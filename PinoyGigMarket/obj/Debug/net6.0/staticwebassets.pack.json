@@ -1501,6 +1501,38 @@
       "PackagePath": "staticwebassets\\scss\\paper-dashboard\\plugins\\_plugin-tagsinput.scss"
     },
     {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\uploads\\2e94c61d-5e52-4413-b161-fbb6af9f8e71_john.doe.jpg",
+      "PackagePath": "staticwebassets\\uploads\\2e94c61d-5e52-4413-b161-fbb6af9f8e71_john.doe.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\uploads\\profilepics\\16620ec8-4769-4f52-9fc1-2851f581a013_jane.jpg",
+      "PackagePath": "staticwebassets\\uploads\\profilepics\\16620ec8-4769-4f52-9fc1-2851f581a013_jane.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\uploads\\profilepics\\22f55d41-8f02-449f-8c5c-64ec732c73b8_john.doe.jpg",
+      "PackagePath": "staticwebassets\\uploads\\profilepics\\22f55d41-8f02-449f-8c5c-64ec732c73b8_john.doe.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\uploads\\profilepics\\558deb0a-32e5-481f-af3e-a2d81e3bf747_john.doe.jpg",
+      "PackagePath": "staticwebassets\\uploads\\profilepics\\558deb0a-32e5-481f-af3e-a2d81e3bf747_john.doe.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\uploads\\profilepics\\576f0172-d5e6-41f6-b7c0-49d10047cffb_john.doe.jpg",
+      "PackagePath": "staticwebassets\\uploads\\profilepics\\576f0172-d5e6-41f6-b7c0-49d10047cffb_john.doe.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\uploads\\profilepics\\beb8463d-5b3d-47a0-9a37-d9cba73f25d0_bob.jpg",
+      "PackagePath": "staticwebassets\\uploads\\profilepics\\beb8463d-5b3d-47a0-9a37-d9cba73f25d0_bob.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\uploads\\profilepics\\f2559c83-06f2-497f-a9f7-d265a9d13b2c_001.jpg",
+      "PackagePath": "staticwebassets\\uploads\\profilepics\\f2559c83-06f2-497f-a9f7-d265a9d13b2c_001.jpg"
+    },
+    {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\uploads\\profilepics\\fa8e4935-8b0c-459b-8be1-569dc9846ed5_john.doe.jpg",
+      "PackagePath": "staticwebassets\\uploads\\profilepics\\fa8e4935-8b0c-459b-8be1-569dc9846ed5_john.doe.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.PinoyGigMarket.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

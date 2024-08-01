@@ -46,7 +46,10 @@ namespace PinoyGigMarket.Controllers
                         new Claim(ClaimTypes.Name, user.UserName),
                         new Claim("FirstName", user.FirstName),
                         new Claim("LastName", user.LastName),
-                        new Claim("UserType", user.UserType.ToString()) 
+                        new Claim("UserType", user.UserType.ToString()),
+                        new Claim("ProfilePicturePath", user.ProfilePicturePath)
+
+
                     };
 
                         var identity = new ClaimsIdentity(claims, "CustomClaims");
@@ -81,6 +84,8 @@ namespace PinoyGigMarket.Controllers
         [HttpPost]
         public async Task<IActionResult> Register(RegisterViewModel model)
         {
+            
+
             if (ModelState.IsValid)
             {
                 // Password match and other validations passed
@@ -93,7 +98,8 @@ namespace PinoyGigMarket.Controllers
                     FirstName = model.FirstName,
                     LastName = model.LastName,
                     Phone = model.Phone,
-                    UserType = model.UserType
+                    UserType = model.UserType,
+                    
                 };
 
                 var result = await _userManager.CreateAsync(user, model.Password);
