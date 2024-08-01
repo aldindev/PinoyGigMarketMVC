@@ -16,10 +16,17 @@ builder.Services.AddIdentity<AppUser, IdentityRole>()
 .AddEntityFrameworkStores<ApplicationDbContext>()
 .AddDefaultTokenProviders();
 
+// Authorization policies
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("ClientOnly", policy =>
+        policy.RequireClaim("UserType", "Client"));
+});
+
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+//HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");

@@ -45,7 +45,8 @@ namespace PinoyGigMarket.Controllers
                     {
                         new Claim(ClaimTypes.Name, user.UserName),
                         new Claim("FirstName", user.FirstName),
-                        new Claim("LastName", user.LastName)
+                        new Claim("LastName", user.LastName),
+                        new Claim("UserType", user.UserType.ToString()) 
                     };
 
                         var identity = new ClaimsIdentity(claims, "CustomClaims");

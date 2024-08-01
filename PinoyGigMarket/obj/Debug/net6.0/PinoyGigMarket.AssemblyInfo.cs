@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PinoyGigMarket")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+451d98f302f598c12a3446544be82ffe9b25d44a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f0ec51d9ace372e4f086ae7ee3a9bcd2f9a23b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("PinoyGigMarket")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PinoyGigMarket")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
