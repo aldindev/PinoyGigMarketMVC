@@ -23,13 +23,24 @@ namespace PinoyGigMarket.Controllers
         {
 
             var user = await _userManager.GetUserAsync(User);
+            if (user == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
+
             var model = new ProfileViewModel
             {
                 FirstName = user.FirstName,
                 LastName = user.LastName,
                 Email = user.Email,
                 UserName = user.UserName,
-                ProfilePicturePath = user.ProfilePicturePath // Include other fields as needed
+                ProfilePicturePath = user.ProfilePicturePath, 
+                City = user.City,
+                Country = user.Country,
+                PostalCode = user.PostalCode,
+                AboutMe = user.AboutMe,
+                StatusMessage = user.StatusMessage
             };
 
             return View(model); // This should match the view's expected model type
@@ -165,29 +176,13 @@ namespace PinoyGigMarket.Controllers
             }
 
             return PartialView("_EditSkill", skillViewModel);
-        }
-
-        [HttpPost]
-        public IActionResult UpdateProfile()
-        {
-            var user = _userManager.GetUserAsync(User).Result;
-            var model = new ProfileViewModel
-            {
-                FirstName = user.FirstName,
-                LastName = user.LastName,
-                Email = user.Email,
-                UserName = user.UserName,
-                ProfilePicturePath = user.ProfilePicturePath // Include other fields as needed
-            };
-
-            return View(model); // This should match the view's expected model type
-        }
+        }     
 
         [HttpPost]
         public async Task<IActionResult> UploadProfilePic(ProfileViewModel model)
         {
 
-            model.ProfilePicturePath = "temporary";
+            
 
             if (ModelState.IsValid)
             {
@@ -227,6 +222,43 @@ namespace PinoyGigMarket.Controllers
             }
 
             return RedirectToAction("Index"); 
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(ProfileViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = await _userManager.GetUserAsync(User);
+                if (user == null)
+                {
+                    return NotFound();
+                }
+
+                user.FirstName = model.FirstName;
+                user.LastName = model.LastName;
+                user.Email = model.Email;
+                user.UserName = model.UserName;
+                user.Address = model.Address;
+                user.City = model.City;
+                user.Country = model.Country;
+                user.PostalCode = model.PostalCode;
+                user.AboutMe = model.AboutMe;
+                user.StatusMessage = model.StatusMessage;
+                                
+                var result = await _userManager.UpdateAsync(user);
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("Index");
+                }
+
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError(string.Empty, error.Description);
+                }
+            }
+
+            return RedirectToAction("Index","Appuser");
         }
 
 

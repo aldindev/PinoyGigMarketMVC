@@ -7,11 +7,11 @@
 {
     var user = await UserManager.GetUserAsync(User);
 
-    <div class="navbar-nav ml-auto">
+
         @if (user != null)
         {
-        @user.FirstName @user.LastName 
+        <span>@($"{user.FirstName} {user.LastName}")</span>
         }
-    </div>
+
 }
 
