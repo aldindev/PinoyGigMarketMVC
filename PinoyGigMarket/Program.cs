@@ -21,6 +21,10 @@ builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("ClientOnly", policy =>
         policy.RequireClaim("UserType", "Client"));
+
+    // Freelancer policy
+    options.AddPolicy("FreelancerOnly", policy =>
+        policy.RequireClaim("UserType", "Freelancer"));
 });
 
 

@@ -337,6 +337,10 @@
       "PackagePath": "staticwebassets\\images\\default-avatar.png"
     },
     {
+      "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\default\\defaultgigpost.png",
+      "PackagePath": "staticwebassets\\images\\default\\defaultgigpost.png"
+    },
+    {
       "Id": "E:\\PORTFOLIO PROJECT\\PinoyGigMarketMVC\\PinoyGigMarketMVC\\PinoyGigMarket\\wwwroot\\images\\emilyz.jpg",
       "PackagePath": "staticwebassets\\images\\emilyz.jpg"
     },

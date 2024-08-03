@@ -7,6 +7,7 @@ using PinoyGigMarket.Models;
 
 namespace PinoyGigMarket.Controllers
 {
+    [Authorize(Policy = "ClientOnly")]
     public class ProjectController : Controller
     {
         private readonly ApplicationDbContext _context;

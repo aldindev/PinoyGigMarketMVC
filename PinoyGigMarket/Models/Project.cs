@@ -17,6 +17,9 @@ namespace PinoyGigMarket.Models
         [Column(TypeName = "decimal(10, 2)")]
         public decimal Budget { get; set; }
 
+        public string Location { get; set; }
+        public string GigPostPicturePath { get; set; } = "/images/default/defaultgigpost.png";
+
         //Navigation
         public virtual AppUser Client { get; set; }
 

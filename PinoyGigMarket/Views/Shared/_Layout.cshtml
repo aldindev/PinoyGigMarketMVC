@@ -2,7 +2,8 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
-    bool showGigsMenu = User.HasClaim(c => c.Type == "UserType" && c.Value != "Client");
+    bool showFreelancerMenu = User.HasClaim(c => c.Type == "UserType" && c.Value == "Freelancer");
+    bool showClientMenu = User.HasClaim(c => c.Type == "UserType" && c.Value == "Client");
 
 }
 
@@ -64,26 +65,38 @@
                             <ul class="nav">
                                 <li>
                                     <a asp-area="" asp-controller="AppUser" asp-action="Index">
-                                        <span class="sidebar-mini-icon">MP</span>
-                                        <span class="sidebar-normal">My Profile</span>
+                                        <span class="sidebar-mini-icon">P</span>
+                                        <span class="sidebar-normal">Profile</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <span class="sidebar-mini-icon">MM</span>
-                                        <span class="sidebar-normal">My Messages</span>
+                                        <span class="sidebar-mini-icon">M</span>
+                                        <span class="sidebar-normal">Messages</span>
                                     </a>
                                 </li>
+                                @if (showFreelancerMenu)
+                                {
+                                    <li>
+                                        <a asp-area="" asp-controller="AppUser" asp-action="MySkills">
+                                            <span class="sidebar-mini-icon">MS</span>
+                                            <span class="sidebar-normal">My Skills</span>
+                                        </a>
+                                    </li>
+                                }
+                                @if (showClientMenu)
+                                {
+                                    <li>
+                                        <a asp-area="" asp-controller="GigsClient" asp-action="MyPostedGigs">
+                                            <span class="sidebar-mini-icon">MPG</span>
+                                            <span class="sidebar-normal"> My Posted Gigs </span>
+                                        </a>
+                                    </li>
+                                }
                                 <li>
-                                    <a asp-area="" asp-controller="AppUser" asp-action="MySkills">
-                                        <span class="sidebar-mini-icon">MS</span>
-                                        <span class="sidebar-normal">My Skills</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a asp-area="" asp-controller="Project" asp-action="Index">
-                                        <span class="sidebar-mini-icon">MP</span>
-                                        <span class="sidebar-normal"> My Projects </span>
+                                    <a asp-area="" asp-controller="Gigs" asp-action="">
+                                        <span class="sidebar-mini-icon">MAG</span>
+                                        <span class="sidebar-normal"> My Active Gigs </span>
                                     </a>
                                 </li>
                                 <li>
@@ -97,13 +110,13 @@
                     </div>
                 </div>
                 <ul class="nav">
-                    @if (showGigsMenu)
+                    @if (showFreelancerMenu)
                     {
                         <li>
                             <a asp-area="" asp-controller="Gigs" asp-action="Index">
                                 <i class="nc-icon nc-book-bookmark"></i>
                                 <p>
-                                    Gigs 
+                                    Gig Market 
                                 </p>
                             </a>
                         </li>
