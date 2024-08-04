@@ -1,0 +1,38 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model IEnumerable<PinoyGigMarket.Models.ProjectViewModel>
+
+@{
+
+}
+
+<div class="content">
+    <div class="row">
+        @foreach (var gig in Model)
+        {
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card card-pricing">
+                    <div class="card-header">
+                        <h6 class="card-category">@gig.Title</h6>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-icon icon-primary">
+                            <i class="nc-icon nc-spaceship"></i>
+                        </div>
+                        <h3 class="card-title">@gig.Budget</h3>
+                        <ul>
+                            <li>@gig.Desc</li>
+                            <li><i class="fa fa-location-dot" aria-hidden="true" style="color: darkslategray;"></i>  @gig.Location</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <a href="javascript:;" class="btn btn-round btn-primary">Accept this Gig</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
