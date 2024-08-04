@@ -26,6 +26,7 @@ namespace PinoyGigMarket.Models
 
         //Navigation properties
         public virtual ICollection<Project> Projects { get; set; }
+        public virtual ICollection<Project> FreelancerProjects { get; set; }
         public virtual ICollection<Skill> Skills { get; set; }
         public virtual ICollection<Proposal> Proposals { get; set; }
 

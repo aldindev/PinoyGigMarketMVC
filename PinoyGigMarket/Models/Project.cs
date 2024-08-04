@@ -11,6 +11,7 @@ namespace PinoyGigMarket.Models
         [Required]
         [ForeignKey("Client")]
         public string ClientID { get; set; }
+        public string FreelancerID { get; set; }
         public string Title { get; set; }
         public string Desc { get; set; }
         public ProjectStatus Status { get; set; }
@@ -22,6 +23,7 @@ namespace PinoyGigMarket.Models
 
         //Navigation
         public virtual AppUser Client { get; set; }
+        public virtual AppUser Freelancer { get; set; }
 
     }
 }
