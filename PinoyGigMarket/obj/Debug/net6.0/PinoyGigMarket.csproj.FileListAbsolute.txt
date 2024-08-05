@@ -71,6 +71,16 @@ F:\PROJECT\PinoyGigMarket\PinoyGigMarket\PinoyGigMarket\obj\Debug\net6.0\refint\
 F:\PROJECT\PinoyGigMarket\PinoyGigMarket\PinoyGigMarket\obj\Debug\net6.0\PinoyGigMarket.pdb
 F:\PROJECT\PinoyGigMarket\PinoyGigMarket\PinoyGigMarket\obj\Debug\net6.0\PinoyGigMarket.genruntimeconfig.cache
 F:\PROJECT\PinoyGigMarket\PinoyGigMarket\PinoyGigMarket\obj\Debug\net6.0\ref\PinoyGigMarket.dll
+E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\obj\Debug\net6.0\PinoyGigMarket.csproj.AssemblyReference.cache
+E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\obj\Debug\net6.0\PinoyGigMarket.GeneratedMSBuildEditorConfig.editorconfig
+E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\obj\Debug\net6.0\PinoyGigMarket.AssemblyInfoInputs.cache
+E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\obj\Debug\net6.0\PinoyGigMarket.AssemblyInfo.cs
+E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\obj\Debug\net6.0\PinoyGigMarket.csproj.CoreCompileInputs.cache
+E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\obj\Debug\net6.0\PinoyGigMarket.MvcApplicationPartsAssemblyInfo.cs
+E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\obj\Debug\net6.0\PinoyGigMarket.MvcApplicationPartsAssemblyInfo.cache
+E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\obj\Debug\net6.0\PinoyGigMarket.RazorAssemblyInfo.cache
+E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\obj\Debug\net6.0\PinoyGigMarket.RazorAssemblyInfo.cs
+E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\obj\Debug\net6.0\PinoyGigMarket.sourcelink.json
 E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\bin\Debug\net6.0\appsettings.Development.json
 E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\bin\Debug\net6.0\appsettings.json
 E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\bin\Debug\net6.0\PinoyGigMarket.staticwebassets.runtime.json
@@ -122,16 +132,6 @@ E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\bin\Debu
 E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\obj\Debug\net6.0\PinoyGigMarket.csproj.AssemblyReference.cache
-E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\obj\Debug\net6.0\PinoyGigMarket.GeneratedMSBuildEditorConfig.editorconfig
-E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\obj\Debug\net6.0\PinoyGigMarket.AssemblyInfoInputs.cache
-E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\obj\Debug\net6.0\PinoyGigMarket.AssemblyInfo.cs
-E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\obj\Debug\net6.0\PinoyGigMarket.csproj.CoreCompileInputs.cache
-E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\obj\Debug\net6.0\PinoyGigMarket.MvcApplicationPartsAssemblyInfo.cs
-E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\obj\Debug\net6.0\PinoyGigMarket.MvcApplicationPartsAssemblyInfo.cache
-E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\obj\Debug\net6.0\PinoyGigMarket.RazorAssemblyInfo.cache
-E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\obj\Debug\net6.0\PinoyGigMarket.RazorAssemblyInfo.cs
-E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\obj\Debug\net6.0\PinoyGigMarket.sourcelink.json
 E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\obj\Debug\net6.0\staticwebassets.build.json
 E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\obj\Debug\net6.0\staticwebassets.development.json
 E:\PORTFOLIO PROJECT\PinoyGigMarketMVC\PinoyGigMarketMVC\PinoyGigMarket\obj\Debug\net6.0\staticwebassets\msbuild.PinoyGigMarket.Microsoft.AspNetCore.StaticWebAssets.props

@@ -15,14 +15,14 @@ namespace PinoyGigMarket.Models
         public string LastName { get; set; }
         public string Phone { get; set; }
         public UserType UserType { get; set; }
-        public string ProfilePicturePath { get; set; } = "/images/faces/defaultprofilepic.png";
+        public string? ProfilePicturePath { get; set; } = "/images/faces/defaultprofilepic.png";
 
-        public string Address { get; set; }
-        public string City { get; set; }
-        public string Country { get; set; }
-        public string PostalCode { get; set; }
-        public string AboutMe { get; set; }
-        public string StatusMessage { get; set; }
+        public string? Address { get; set; }
+        public string? City { get; set; }
+        public string? Country { get; set; }
+        public string? PostalCode { get; set; }
+        public string? AboutMe { get; set; }
+        public string? StatusMessage { get; set; }
 
         //Navigation properties
         public virtual ICollection<Project> Projects { get; set; }

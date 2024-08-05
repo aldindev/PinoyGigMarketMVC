@@ -28,7 +28,12 @@
                         </ul>
                     </div>
                     <div class="card-footer">
-                        <a href="javascript:;" class="btn btn-round btn-primary">Accept this Gig</a>
+                        <!-- Form to submit project acceptance -->
+                        <form asp-action="AcceptGig" asp-controller="GigsFreelancer" method="post">
+                            <input type="hidden" name="projectId" value="@gig.ProjectId" />
+                            <button type="submit" class="btn btn-outline-default btn-round">Accept this Gig</button>
+                        </form>
+
                     </div>
                 </div>
             </div>

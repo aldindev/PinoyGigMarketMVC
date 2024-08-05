@@ -44,14 +44,14 @@ namespace PinoyGigMarket.Controllers
 
         public async Task<IActionResult> MyActiveGigs()
         {
-            var user = _userManager.GetUserAsync(User);
+            var user = await _userManager.GetUserAsync(User);
             if (user == null)
             {
                 return View("No Users");
             }
 
             var gigPosts = await _context.Projects
-                .Where(s => s.Status == ProjectStatus.Open)
+                .Where(s => s.FreelancerID == user.Id && s.Status == ProjectStatus.InProgress)
                 .Select(s => new ProjectViewModel
                 {
                     ProjectId = s.ProjectId,
@@ -65,5 +65,32 @@ namespace PinoyGigMarket.Controllers
 
             return View(gigPosts);
         }
+
+        [HttpPost]
+        public async Task<IActionResult> AcceptGig(int projectId)
+        {
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null)
+            {
+                return Unauthorized();
+            }
+
+            var project = await _context.Projects.FindAsync(projectId);
+            if (project == null)
+            {
+                return NotFound();
+            }
+
+            // Associate the project with the freelancer
+            project.FreelancerID = user.Id;
+            project.Status = ProjectStatus.InProgress;
+            _context.Projects.Update(project);
+            await _context.SaveChangesAsync();
+
+            // Redirect to MyActiveGigs action
+            return RedirectToAction("MyActiveGigs");
+        }
+
+
     }
 }

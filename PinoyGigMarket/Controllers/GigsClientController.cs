@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PinoyGigMarket.Data;
+using PinoyGigMarket.Data.Enum;
 using PinoyGigMarket.Models;
 
 namespace PinoyGigMarket.Controllers
@@ -18,9 +19,28 @@ namespace PinoyGigMarket.Controllers
             _context = context;
             _userManager = userManager;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> MyActiveGigs()
         {
-            return View();
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null)
+            {
+                return View("No Users");
+            }
+
+            var activeGigs = await _context.Projects
+                .Where(s => s.ClientID == user.Id && s.Status == ProjectStatus.InProgress)
+                .Select(s => new ProjectViewModel
+                {
+                    ProjectId = s.ProjectId,
+                    Title = s.Title,
+                    Desc = s.Desc,
+                    Status = s.Status,
+                    Location = s.Location,
+                    Budget = s.Budget
+                })
+                .ToListAsync();
+
+            return View(activeGigs);
         }
 
         public async Task<IActionResult> MyPostedGigs()
@@ -33,7 +53,7 @@ namespace PinoyGigMarket.Controllers
             }
 
             var myProjects = await _context.Projects
-                .Where(s => s.ClientID == user.Id)
+                .Where(s => s.ClientID == user.Id && s.Status == ProjectStatus.Open)
                 .Select(s => new ProjectViewModel
                 {
                     ProjectId = s.ProjectId,

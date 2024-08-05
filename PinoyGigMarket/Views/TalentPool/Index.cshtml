@@ -1,0 +1,45 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model IEnumerable<PinoyGigMarket.Models.AppUser>
+
+@{
+    ViewData["Title"] = "Talent Pool";
+}
+
+
+<div class="content">
+    <div class="row">
+        @foreach (var talentpool in Model)
+        {
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card card-testimonial">
+                    <div class="card-body ">
+                        <div class="icon icon-primary">
+                            <i class="fa fa-quote-right"></i>
+                        </div>
+                        <p class="card-description">
+                            @talentpool.StatusMessage
+                        </p>
+                    </div>
+                    <div class="skills">
+                        @foreach (var skill in talentpool.Skills)
+                        {
+                            <button class="btn btn-primary btn-round">@skill.SkillName</button>
+                        }
+                    </div>
+                    <div class="card-footer ">
+                        <h4 class="card-title">@talentpool.UserName</h4>
+                        <h6 class="card-category">ginaandrew</h6>
+                        <div class="card-avatar">
+                            <a href="javascript:;">
+                                <img class="img" src="@Url.Content(talentpool.ProfilePicturePath ?? "~/images/faces/defaultprofilepic.png")">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
