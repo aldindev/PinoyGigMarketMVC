@@ -37,7 +37,7 @@
                     <div class="image">
                         <img src="~/images/bg/damir-bosnjak.jpg" alt="Bacground Pic">
                     </div>
-                    <div class="card-body">
+                    <div class="card-body text-center">
                         <div class="author">
                             <a href="javascript:;" id="profilePicLink">
                                 <img class="avatar border-gray" src="@(!string.IsNullOrEmpty(Model.ProfilePicturePath) ? Model.ProfilePicturePath : "/images/faces/defaultprofilepic.png")" alt="Profile Pic">
@@ -48,11 +48,15 @@
                                 @Model.Email
                             </p>
                         </div>
-                        <p class="description text-center">
-                            "Put your status here <br>
-                            or your <br>
-                            favorite quote"
-                        </p>
+                        <div class="status-message-container">
+                            <p id="statusMessage" class="description text-center mx-auto" style="max-width: 200px; word-wrap: break-word;">
+                                @Model.StatusMessage
+                            </p>
+                            <input type="text" id="statusMessageInput" class="form-control" style="display:none; max-width: 200px; margin: 10px auto;" value="@Model.StatusMessage" />
+                            <button id="editStatusBtn" class="btn btn-sm btn-primary">Edit Status</button>
+                            <button id="saveStatusBtn" class="btn btn-sm btn-success" style="display:none;">Save</button>
+                            <button id="cancelStatusBtn" class="btn btn-sm btn-secondary" style="display:none;">Cancel</button>
+                        </div>
                     </div>
                     <div class="card-footer">
                         <hr>
@@ -229,10 +233,49 @@
     <script src="~/demo/demo.js"></script>
 
 
-
-
     <script>
         $(document).ready(function () {
+            // Toggle visibility for editing the status message
+            $('#editStatusBtn').on('click', function () {
+                $('#statusMessage').hide();
+                $('#editStatusBtn').hide();
+                $('#statusMessageInput').show().focus();
+                $('#saveStatusBtn, #cancelStatusBtn').show();
+            });
+
+            $('#cancelStatusBtn').on('click', function () {
+                $('#statusMessageInput').val($('#statusMessage').text()).hide();
+                $('#statusMessage').show();
+                $('#editStatusBtn').show();
+                $('#saveStatusBtn, #cancelStatusBtn').hide();
+            });
+
+            $('#saveStatusBtn').on('click', function () {
+                var newStatus = $('#statusMessageInput').val();
+
+                $.ajax({
+                    url: '@Url.Action("UpdateStatusMessage", "AppUser")',
+                    type: 'POST',
+                    data: {
+                        statusMessage: newStatus
+                    },
+                    success: function (response) {
+                        if (response.success) {
+                            $('#statusMessage').text(newStatus).show();
+                            $('#statusMessageInput').hide();
+                            $('#editStatusBtn').show();
+                            $('#saveStatusBtn, #cancelStatusBtn').hide();
+                        } else {
+                            alert("Error updating status.");
+                        }
+                    },
+                    error: function () {
+                        alert("An error occurred while updating the status.");
+                    }
+                });
+            });
+
+            // Edit Profile Button
             $('#editButton').on('click', function () {
                 // Make inputs editable
                 $('input[asp-for], textarea[asp-for]').removeAttr('readonly');
@@ -253,6 +296,7 @@
                 $('#editButton').show();
             });
 
+            // Profile Picture Upload
             $('#profilePicLink').on('click', function () {
                 $('#profilePicInput').click();
             });
@@ -262,6 +306,7 @@
             });
         });
     </script>
+
 
 </body>
 

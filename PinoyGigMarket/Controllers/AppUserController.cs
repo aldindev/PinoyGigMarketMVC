@@ -244,7 +244,7 @@ namespace PinoyGigMarket.Controllers
                 user.Country = model.Country;
                 user.PostalCode = model.PostalCode;
                 user.AboutMe = model.AboutMe;
-                user.StatusMessage = model.StatusMessage;
+
                                 
                 var result = await _userManager.UpdateAsync(user);
                 if (result.Succeeded)
@@ -259,6 +259,28 @@ namespace PinoyGigMarket.Controllers
             }
 
             return RedirectToAction("Index","Appuser");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> UpdateStatusMessage(string statusMessage)
+        {
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null)
+            {
+                return Json(new { success = false });
+            }
+
+            user.StatusMessage = statusMessage;
+            var result = await _userManager.UpdateAsync(user);
+
+            if (result.Succeeded)
+            {
+                return Json(new { success = true });
+            }
+            else
+            {
+                return Json(new { success = false });
+            }
         }
 
 
