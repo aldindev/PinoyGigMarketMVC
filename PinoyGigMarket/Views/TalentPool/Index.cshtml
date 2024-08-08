@@ -39,6 +39,11 @@
                                 <img class="img" src="@Url.Content(talentpool.ProfilePicturePath ?? "~/images/faces/defaultprofilepic.png")">
                             </a>
                         </div>
+                        <div class="mt-3">
+                            <a href="@Url.Action("Send", "Messages", new { receiverId = talentpool.Id, ReceiverName = talentpool.FirstName })" class="btn btn-secondary btn-round">
+                                <i class="fa fa-comments"></i> Chat
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -14,6 +14,7 @@ namespace PinoyGigMarket.Data
         public DbSet<Project> Projects { get; set; }
         public DbSet<Proposal> Proposals { get; set; }
         public DbSet<Skill> Skills { get; set; }
+        public DbSet<Message> Messages { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -34,7 +35,18 @@ namespace PinoyGigMarket.Data
                 .OnDelete(DeleteBehavior.Restrict)
                 .IsRequired(false); // Allow NULLs if FreelancerID is optional
 
-            // Optionally configure other relationships or constraints as needed
+            // Configure the one-to-many relationship for Messages
+            modelBuilder.Entity<Message>()
+                .HasOne(m => m.Sender)
+                .WithMany(u => u.SentMessages)
+                .HasForeignKey(m => m.SenderId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Message>()
+                .HasOne(m => m.Receiver)
+                .WithMany(u => u.ReceivedMessages)
+                .HasForeignKey(m => m.ReceiverId)
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

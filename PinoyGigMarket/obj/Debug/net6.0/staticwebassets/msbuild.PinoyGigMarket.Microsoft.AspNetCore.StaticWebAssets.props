@@ -6288,6 +6288,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\profilepics\d5f39d2b-267c-433b-9d17-8df3ec715029_fem3.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\profilepics\de38d116-6f66-4f35-a08b-72a6b9e111d4_male003.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>PinoyGigMarket</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PinoyGigMarket</BasePath>
+      <RelativePath>uploads/profilepics/de38d116-6f66-4f35-a08b-72a6b9e111d4_male003.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\profilepics\de38d116-6f66-4f35-a08b-72a6b9e111d4_male003.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\profilepics\f03c6098-1f5c-4e39-b8c4-355da7b1a717_fem004.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>PinoyGigMarket</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PinoyGigMarket</BasePath>
+      <RelativePath>uploads/profilepics/f03c6098-1f5c-4e39-b8c4-355da7b1a717_fem004.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\profilepics\f03c6098-1f5c-4e39-b8c4-355da7b1a717_fem004.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\profilepics\f2559c83-06f2-497f-a9f7-d265a9d13b2c_001.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>PinoyGigMarket</SourceId>

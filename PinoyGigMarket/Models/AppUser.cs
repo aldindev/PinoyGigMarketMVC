@@ -29,6 +29,8 @@ namespace PinoyGigMarket.Models
         public virtual ICollection<Project> FreelancerProjects { get; set; }
         public virtual ICollection<Skill> Skills { get; set; }
         public virtual ICollection<Proposal> Proposals { get; set; }
+        public ICollection<Message> SentMessages { get; set; }
+        public ICollection<Message> ReceivedMessages { get; set; }
 
     }
 }

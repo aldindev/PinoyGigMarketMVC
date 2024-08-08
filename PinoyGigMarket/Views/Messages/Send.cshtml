@@ -1,0 +1,50 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model PinoyGigMarket.ViewModels.MessageViewModel
+
+@{
+}
+
+@* <div class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Messages</h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        This feature coming soon...
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div> *@
+
+
+<h2>Send Message</h2>
+
+<form asp-controller="Messages" asp-action="Send" method="post">
+    <div class="form-group">
+        <label asp-for="ReceiverFirstName" class="control-label">First Name</label>
+        <input asp-for="ReceiverFirstName" class="form-control" readonly />
+    </div>
+    <div class="form-group">
+        <label asp-for="ReceiverLastName" class="control-label">Last Name</label>
+        <input asp-for="ReceiverLastName" class="form-control" readonly />
+    </div>
+    <div class="form-group">
+        <label asp-for="Content" class="control-label">Message</label>
+        <textarea asp-for="Content" class="form-control"></textarea>
+        <span asp-validation-for="Content" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="hidden" asp-for="ReceiverId" />
+        <input type="submit" value="Send" class="btn btn-primary" />
+    </div>
+</form>
