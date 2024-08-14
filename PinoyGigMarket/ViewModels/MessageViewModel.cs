@@ -12,5 +12,6 @@
         public string? ReceiverLastName { get; set; }
         public DateTime DateSent { get; set; }
         public bool? IsRead { get; set; }
+        public bool IsSent { get; set; } // Indicates if the message was sent by the logged-in user
     }
 }

@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using PinoyGigMarket.Models;
 using PinoyGigMarket.ViewModels;
+using System.Collections.Generic;
 
 namespace PinoyGigMarket.Data.Repositories
 {
@@ -13,13 +14,26 @@ namespace PinoyGigMarket.Data.Repositories
             _context = context;
         }
 
-        public async Task<IEnumerable<Message>> GetUserMessages(string userId)
+        public async Task<IEnumerable<Message>> GetUserMessages(string userId, bool isSent)
         {
-            return await _context.Messages
-            .Where(m => m.SenderId == userId || m.ReceiverId == userId)
-            .Include(m => m.Sender)
-            .Include(m => m.Receiver)
-            .ToListAsync();
+            IQueryable<Message> query;
+
+            if (isSent)
+            {
+                query = _context.Messages
+                    .Where(m => m.SenderId == userId)
+                    .Include(m => m.Sender)
+                    .Include(m => m.Receiver);
+            }
+            else
+            {
+                query = _context.Messages
+                    .Where(m => m.ReceiverId == userId)
+                    .Include(m => m.Sender)
+                    .Include(m => m.Receiver);
+            }
+
+            return await query.OrderByDescending(m => m.SentAt).ToListAsync();
         }
 
         public async Task<Message> GetMessageById(int id)

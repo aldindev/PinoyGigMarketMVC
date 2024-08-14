@@ -20,8 +20,17 @@ namespace PinoyGigMarket.Controllers
         public async Task<IActionResult> Index()
         {
             var userId = _userManager.GetUserId(User);
-            var messages = await _messageService.GetUserMessages(userId);
-            return View(messages);
+
+            var sentMessages = await _messageService.GetUserMessages(userId, isSent: true);
+            var receivedMessages = await _messageService.GetUserMessages(userId, isSent: false);
+
+            var viewModel = new SentReceivedViewModel
+            {
+                SentMessages = sentMessages,
+                ReceivedMessages = receivedMessages
+            };
+
+            return View(viewModel);
         }
 
         public IActionResult Send(string receiverId)

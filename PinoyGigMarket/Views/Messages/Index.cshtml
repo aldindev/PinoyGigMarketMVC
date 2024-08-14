@@ -2,11 +2,35 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 
-@model IEnumerable<PinoyGigMarket.Models.Message>
+@model PinoyGigMarket.ViewModels.SentReceivedViewModel
 
 @{
 }
+<h2>Received Messages</h2>
 
+<table class="table">
+    <thead>
+        <tr>
+            <th>From</th>
+            <th>Content</th>
+            <th>Sent At</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var message in Model.ReceivedMessages)
+        {
+            <tr>
+                <td>@($"{message.Sender.FirstName} {message.Sender.LastName}")</td>
+                <td>@message.Content</td>
+                <td>@message.SentAt.ToString("g")</td>
+                <td>
+                    @* <a href="@Url.Action("Details", new { id = message.MessageId })">Details</a> *@
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
 
 <h2>Sent Messages</h2>
 
@@ -20,14 +44,14 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var message in Model)
+        @foreach (var message in Model.SentMessages)
         {
             <tr>
                 <td>@($"{message.Receiver.FirstName} {message.Receiver.LastName}")</td>
                 <td>@message.Content</td>
                 <td>@message.SentAt.ToString("g")</td>
                 <td>
-                    <a href="@Url.Action("Details", new { id = message.MessageId })">Details</a>
+                    @* <a href="@Url.Action("Details", new { id = message.MessageId })">Details</a> *@
                 </td>
             </tr>
         }

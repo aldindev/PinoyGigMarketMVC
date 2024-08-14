@@ -11,9 +11,9 @@ namespace PinoyGigMarket.Data.Repositories
             _messageRepository = messageRepository;
         }
 
-        public async Task<IEnumerable<Message>> GetUserMessages(string userId)
+        public async Task<IEnumerable<Message>> GetUserMessages(string userId, bool isSent)
         {
-            return await _messageRepository.GetUserMessages(userId);
+            return await _messageRepository.GetUserMessages(userId, isSent);
         }
 
         public async Task<Message> GetMessageById(int id)
