@@ -14,26 +14,26 @@
         @foreach (var talentpool in Model)
         {
             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
-                <div class="card card-testimonial">
-                    <div class="card-body ">
+                <div class="card card-testimonial h-100">
+                    <div class="card-body  d-flex flex-column">
                         <div class="icon icon-primary">
                             <i class="fa fa-quote-right"></i>
                         </div>
-                        <p class="card-description">
+                        <p class="card-description flex-grow-1">
                             @talentpool.StatusMessage
                         </p>
                     </div>
                     <div class="skills">
                         @foreach (var skill in talentpool.Skills)
                         {
-                            <button class="btn btn-primary btn-round">@skill.SkillName</button>
+                            <button class="btn btn-primary btn-round mb-1">@skill.SkillName</button>
                         }
                     </div>
-                    <div class="card-footer ">
+                    <div class="card-footer  mt-auto text-center">
                         <h4 class="card-title">
                             @($"{talentpool.FirstName} {talentpool.LastName}")
                             </h4>
-                        <h6 class="card-category">ginaandrew</h6>
+                        @* <h6 class="card-category">ginaandrew</h6> *@
                         <div class="card-avatar">
                             <a href="javascript:;">
                                 <img class="img" src="@Url.Content(talentpool.ProfilePicturePath ?? "~/images/faces/defaultprofilepic.png")">

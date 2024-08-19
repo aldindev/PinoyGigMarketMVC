@@ -67,6 +67,27 @@ namespace PinoyGigMarket.Controllers
             return View(myProjects);
         }
 
+        [HttpPost]
+        public async Task<IActionResult> DeleteGig(int id)
+        {
+            var gig = await _context.Projects.FindAsync(id);
+            if (gig == null)
+            {
+                return NotFound();
+            }
+
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null || gig.ClientID != user.Id)
+            {
+                return Unauthorized();
+            }
+
+            _context.Projects.Remove(gig);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(MyPostedGigs));
+        }
+
         public IActionResult ShowAddGigForm()
         {
             return PartialView("_PostAGig", new ProjectViewModel());
@@ -100,6 +121,61 @@ namespace PinoyGigMarket.Controllers
             }
 
             return PartialView("_PostAGig", gigViewModel);
+        }
+
+        public async Task<IActionResult> EditGigPartial(int id)
+        {
+            var gig = await _context.Projects.FindAsync(id);
+            if (gig == null)
+            {
+                return NotFound();
+            }
+
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null || gig.ClientID != user.Id)
+            {
+                return Unauthorized();
+            }
+
+            var gigViewModel = new ProjectViewModel
+            {
+                ProjectId = gig.ProjectId,
+                Title = gig.Title,
+                Desc = gig.Desc,
+                Location = gig.Location
+            };
+
+            return PartialView("_EditGig", gigViewModel);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> EditGig(ProjectViewModel gigViewModel)
+        {
+            if (ModelState.IsValid)
+            {
+                var gig = await _context.Projects.FindAsync(gigViewModel.ProjectId);
+                if (gig == null)
+                {
+                    return NotFound();
+                }
+
+                var user = await _userManager.GetUserAsync(User);
+                if (user == null || gig.ClientID != user.Id)
+                {
+                    return Unauthorized();
+                }
+
+                gig.Title = gigViewModel.Title;
+                gig.Desc = gigViewModel.Desc;
+                gig.Location = gigViewModel.Location;
+
+                _context.Update(gig);
+                await _context.SaveChangesAsync();
+
+                return RedirectToAction(nameof(MyPostedGigs));
+            }
+
+            return PartialView("_EditGig", gigViewModel);
         }
     }
 }
